@@ -48,9 +48,9 @@ int main()
              cout<<"------------------------"<<endl;
              cout<<"   Participant  Found   "<<endl;
              cout<<"------------------------"<<endl;
-             cout<<"ID"<<setw(5)<<":";
+             cout<<"ID"<<setw(8)<<":";
              cout<<ids[i]<<endl;
-             cout<<"Name"<<setw(5)<<":";
+             cout<<"Name"<<setw(6)<<":";
              cout<<na[i]<<endl;
              cout<<"Score"<<setw(5)<<":";
              cout<<s[i]<<endl;
@@ -101,7 +101,7 @@ int main()
     cout<<"Top Therr performers"<<endl;
     for(i=0 ; i<3 ; i++)
     {
-        cout<<i+1<<"."<<na[i]<<" -"<<s[i]<<endl;
+        cout<<i+1<<"."<<na[i]<<" :- "<<s[i]<<endl;
     }
 
 }
